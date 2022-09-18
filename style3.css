@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.card{
+    background-color: #ffc400;
+    padding: 1rem;
+    color: white;
+}
+
+p{
+    font-size: 4em;
+}
+
+button{
+    border: 1px solid #fff;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: auto 10px;
+    background-color: #ffc400;
+    color: #fff;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+    transition: 0.4s;
+    border: none;
+}

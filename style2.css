@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #34393f !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input#range {
+    width: 92%;
+}
+
+.bg, .ran{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ddd;
+}
+
+.tip, .amt {
+    background: #ddd;
+    line-height: 2.5;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
